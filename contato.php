@@ -28,11 +28,6 @@
                         <textarea class="form-control" rows="4" id="inputMensagem" placeholder="Mensagem"></textarea>
                     </div>
                 </div>
-<!--                <div class="form-group">
-                    <div class="col-sm-offset-2 col-sm-10">
-                        <button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Enviar</button>
-                    </div>
-                </div>-->
             </form>
 
             <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">

@@ -35,13 +35,11 @@
     </div>
 
     <?php
-
     $opcoes = array('contato.php', 'empresa.php', 'home.php', 'produtos.php', 'servicos.php');
 
     $arquivo = $_GET["arquivo"];
 
     in_array($arquivo, $opcoes) ? require_once($_GET["arquivo"]) : require_once("home.php");
-
     ?>
 
     <div class="row">
